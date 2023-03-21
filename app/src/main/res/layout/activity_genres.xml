@@ -27,10 +27,24 @@
             />
 
         <TextView
+            android:id="@+id/textMovieYuk"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nonton Movie yuks"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/textWelcomeTo"
+            app:layout_constraintBottom_toTopOf="@id/cardGenres"
+            />
+
+        <TextView
             android:id="@+id/textMovieNow"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="MovieNow"
+            android:text="By Movie Now"
             android:textSize="14sp"
             android:textStyle="bold"
             android:textColor="@color/black"

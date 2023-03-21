@@ -35,8 +35,8 @@ class GenresAdapter constructor(
 
         fun bind(item: GenresItem){
             binding.textGenre.text = item.name
-            binding.layGenres.setBackgroundColor(getRandomColor())
-            binding.layGenres.setOnClickListener {
+            binding.textGenre.setBackgroundColor(getRandomColor())
+            binding.textGenre.setOnClickListener {
                 onClicked.invoke(item)
             }
         }

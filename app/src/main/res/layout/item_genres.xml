@@ -1,24 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
     android:id="@+id/layGenres"
-    android:layout_marginTop="8dp"
+    android:layout_marginTop="4dp"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
     xmlns:tools="http://schemas.android.com/tools">
 
-    <TextView
+    <Button
         android:id="@+id/textGenre"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Test"
-        android:paddingTop="4dp"
-        android:paddingStart="8dp"
-        android:paddingEnd="8dp"
         android:layout_gravity="center"
-        android:paddingHorizontal="4dp"
-        android:paddingVertical="4dp"
-        android:textSize="14sp"
+        android:textAllCaps="false"
+        android:textSize="12sp"
         android:textStyle="bold"
-        android:textColor="@color/black" />
+        android:textColor="@color/black"
+        />
 
 </androidx.appcompat.widget.LinearLayoutCompat>
