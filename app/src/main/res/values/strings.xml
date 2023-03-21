@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">Nonton Movie Yuk</string>
+    <string name="s_movie">%s Movie</string>
+    <string name="by_s">by %s</string>
+    <string name="s_5_s_reviews">%s/5</string>
+    <string name="see_all_review_s"><![CDATA[See All Review (%s) >]]></string>
 </resources>
